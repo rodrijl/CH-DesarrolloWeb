@@ -1,0 +1,92 @@
+body {
+  background-color: salmon !important; }
+
+nav li:hover ul {
+  display: block; }
+
+header {
+  display: inline-flex !important;
+  align-items: center; }
+  header img {
+    width: 136px;
+    height: 125px; }
+
+nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 15px; }
+
+.submenu {
+  position: relative;
+  color: white; }
+
+.subMenuUl {
+  position: absolute;
+  display: none; }
+  .subMenuUl li {
+    display: block; }
+
+.submenu:hover > .subMenuUl {
+  display: block; }
+
+nav ul li a {
+  color: white;
+  text-decoration: none; }
+
+.bodyBox {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 30px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)); }
+  .bodyBox h1 {
+    animation-duration: 3s;
+    animation-name: show;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase; }
+  .bodyBox p, .bodyBox h3, .bodyBox h4 {
+    color: white;
+    padding: 10px; }
+  .bodyBox ul li {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    margin: 40px; }
+    .bodyBox ul li img {
+      width: 292px;
+      height: 237px; }
+
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.bodyBox__Form {
+  padding: 10px; }
+  .bodyBox__Form input, .bodyBox__Form button {
+    border-radius: 10px; }
+
+.clientSection {
+  display: flex;
+  justify-content: space-between; }
+
+.footerGeneral {
+  background-color: lightblue;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between; }
+  .footerGeneral ul li {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.bodyBox .bodyBox__socialMediaImg li img {
+  width: 100px;
+  height: 200px; }
+
+.clientSection__digitalmarketing, .clientSection__symmetric, .clientSection__envie {
+  display: inline-block;
+  text-align: center; }
